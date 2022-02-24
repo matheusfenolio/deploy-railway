@@ -7,4 +7,5 @@ RUN npm install
 COPY . .
 EXPOSE 80
 RUN npx prisma migrate deploy
+RUN npx prisma generate
 CMD [ "node", "server.mjs" ]
