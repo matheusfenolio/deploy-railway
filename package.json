@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.3"
+    "@prisma/client": "^3.10.0",
+    "express": "^4.17.3",
+    "prisma": "^3.10.0"
   }
 }
